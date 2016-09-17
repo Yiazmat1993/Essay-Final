@@ -1,0 +1,6 @@
+try:
+    f = open("UC.txt","w")
+    f.write("...")
+    print(f.read())
+except IOError:
+    print ("Error: You do not have permission to write to file")
